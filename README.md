@@ -2,41 +2,41 @@
 
 This project presents an integrated IoT and AI-based system designed to reuse air conditioner (AC) condensate water for agricultural irrigation. It combines hardware sensors, a machine learning model, and a web interface to analyze water quality and provide real-time insights.
 
-## Problem Statement
+## 💡 Problem Statement
 
 In hot climates like Saudi Arabia, AC units produce significant amounts of clean condensate water that is usually wasted. Our project aims to repurpose this water as a sustainable resource for agriculture by evaluating its quality and providing usage recommendations.
 
-## Technologies & Tools Used
+## 🛠️ Technologies & Tools Used
 
-- **ESP32** microcontroller  
-- **Sensors**: pH, TDS, Turbidity, Temperature  
-- **Python**, **Flask** for backend server  
-- **SVM Model** for classification  
-- **Firebase** for real-time database  
-- **HTML / CSS / PHP** for web dashboard  
-- **Arduino IDE**, **Jupyter Notebook**  
-- **Render.com** for hosting Flask app
+- *ESP32* microcontroller
+- *Sensors*: pH, TDS, Turbidity, Temperature
+- *Python, **Flask* for backend server
+- *SVM Model* for classification
+- *Firebase* for real-time database
+- *HTML / CSS / PHP* for web dashboard
+- *Arduino IDE, **Jupyter Notebook*
+- *Render.com* for hosting Flask app
 
-## System Workflow
+## ⚙️ System Workflow
 
-1. ESP32 collects real-time data from sensors.  
-2. Sends data to Flask server via HTTP POST.  
-3. Server classifies data using a trained SVM model.  
-4. Results are saved in Firebase Realtime Database.  
-5. Web dashboard displays live water quality status.  
+1. *ESP32* collects real-time data from sensors.
+2. Sends data to *Flask server* via HTTP POST.
+3. Server classifies data using a trained *SVM model*.
+4. Results are saved in *Firebase Realtime Database*.
+5. Web dashboard displays live water quality status.
 6. Alerts are triggered if water is unsuitable for irrigation.
 
 ## 📊 Dataset & Model Performance
 
-- Over 5900 labeled samples.  
-- Achieved **98.7% classification accuracy**.  
+- Over 5900 labeled samples.
+- Achieved *98.7% classification accuracy*.
 - Used stratified k-fold cross-validation for evaluation.
 
 ## 🌱 Benefits
 
-- Promotes water conservation and sustainability  
-- Supports the Green Saudi Initiative (Vision 2030)  
-- Reduces irrigation costs and freshwater usage
+- Promotes water conservation and sustainability.
+- Supports the Green Saudi Initiative (2030 Vision).
+- Helps reduce irrigation costs and freshwater consumption.
 
 ## 📁 Project Structure
 
@@ -46,7 +46,7 @@ GitHubRepo/
 ML_models/
 README.md
 
-## 📸 Project Images
+## Project Images
 
 ### Hardware Setup
 ![Hardware Setup](Images/Diagram of the hardware connection.jpeg)
